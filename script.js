@@ -44,7 +44,7 @@ randomMole();
 
 function startGame(){
     score=0;
-    timeLeft=10;
+    timeLeft=60;
     gameMusic.play();
     //callback function 
     timerId = setInterval(randomMole,3000);
